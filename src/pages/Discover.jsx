@@ -3,7 +3,6 @@ import { Error, Loader, SongCard } from "../components";
 import { genres } from "../assets/constants";
 import {
   useGetSongsByGenreQuery,
-  useGetTopChartsQuery,
 } from "../redux/services/ShazamCore";
 import { useDispatch, useSelector } from "react-redux";
 

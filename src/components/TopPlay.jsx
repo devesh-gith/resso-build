@@ -67,7 +67,7 @@ function TopPlay() {
 
   const topPlays = data?.slice(0, 5);
 
-  // console.log(topPlays);
+  // console.log(topPlays);npm run
 
   const handlePlayClick = (song, i) => {
     dispatch(setActiveSong({ song, i, data }));
